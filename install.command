@@ -1,6 +1,7 @@
 #!/bin/bash
 
-DIR="$( cd "$( dirname "$0"  )" && pwd  )"
+cd ~/Downloads/ALC295-Fix-Hackintosh/main
 
-$DIR/install.sh
+./install.sh
 
+chmod +x install.sh
